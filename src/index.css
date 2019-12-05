@@ -1,0 +1,84 @@
+h2 {
+    display: inline;
+    padding-right: 30px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+}
+
+.sphere {
+    fill: white;
+}
+
+.country {
+    stroke: black;
+    stroke-opacity: 0.1;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 10px;
+    background: white;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 330px;
+}
+
+.populationGraph {
+    margin-top: 1em;
+}
+
+.zoomBtnGroup {
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    height: 50px;
+}
+
+.zoomBtnGroup > button {
+    background-color: white;
+    border: gray 2px solid;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.zoomBtnGroup > button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.zoomBtnGroup > button:first-child {
+    border-bottom: none;
+}
+
+.changeWorldDisplayInfoBtn {
+    position: absolute;
+    left: 80px;
+    height: 100px;
+    opacity: 0.5;
+    animation: fadein 1s;
+}
+
+.changeWorldDisplayInfoBtn.selected {
+    opacity: 1 !important;
+}
+
+.changeWorldDisplayInfoBtn:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: .5
+    }
+}

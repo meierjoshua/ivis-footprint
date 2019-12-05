@@ -1,0 +1,44 @@
+<!doctype html>
+<html style="width: 100%;height:100%">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<link rel="shortcut icon" href="">
+
+<body style="width: 100%;height:100%;margin-bottom:0;">
+
+<svg style="width: 100%;height:100%"></svg>
+
+<div class="zoomBtnGroup">
+    <button id="zoomInBtn"><span class="glyphicon glyphicon-plus"></span></button>
+    <button id="zoomOutBtn"><span class="glyphicon glyphicon-minus"></span></button>
+</div>
+
+<img src="/images/balance.svg" class="changeWorldDisplayInfoBtn selected" id="balanceBtn" style="top:400px"
+     title="Show Balance of Biocapacity and Footprint">
+<img src="/images/footprint.svg" class="changeWorldDisplayInfoBtn" id="footprintPerPersonBtn" style="top:520px"
+     title="Show Footprint per Person">
+<img src="/images/biocapacity.svg" class="changeWorldDisplayInfoBtn" id="bioCapacityPerPersonBtn" style="top:640px"
+     title="Show Biocapacity per Person">
+
+
+<div class=" tooltip" style="">
+    <img alt="Flag"
+         class="flag"
+         height="65" style="float: right;" src="">
+    <h2 class="title"></h2>
+    <div style="margin-top:10px;">Capial: <span class="capital"></span></div>
+    <div>Surface: <span class="surfaceArea"></span> km2</div>
+</div>
+
+
+<script src='lib/d3/d3.js'></script>
+<script src="https://d3js.org/d3-array.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo.v1.min.js"></script>
+<script src='lib/lodash.js'></script>
+<script src='src/world.js'></script>
+<link rel="stylesheet" href="/src/index.css">
+</body>
+
+</html>
