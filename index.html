@@ -1,5 +1,5 @@
 <!doctype html>
-<html style="width: 100%;height:100%">
+<html style="width: 100%;height:96%">
 <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -8,7 +8,26 @@
 
 <body style="width: 100%;height:100%;margin-bottom:0;">
 
-<svg style="width: 100%;height:100%"></svg>
+<svg style="width: 100%;height:100%;"></svg>
+
+<div style="background: white; position: absolute; height: 12%; top: 0;left: 0;width: 100%;opacity: 0.9;">
+</div>
+
+<div class="documentTitle">
+    <h1>Development of Biocapacity/Footprint worldwide</h1>
+    <div class="yearSelectGroup">
+        <button class="previousYearBtn">&#8656;</button>
+        <span
+                class="selectedYear">2016</span>
+        <button class="nextYearBtn" style="display: none;"> &#8658;</button>
+    </div>
+</div>
+
+
+<div class="fhnwInfoBox">
+    <img src="/images/fhnw.png" alt="FHNW LOGO" height="40">
+    <div class="grayFont">iCompetence / iVisPro / Joshua Meier</div>
+</div>
 
 <div class="zoomBtnGroup">
     <button id="zoomInBtn"><span class="glyphicon glyphicon-plus"></span></button>
@@ -23,13 +42,18 @@
      title="Show Biocapacity per Person">
 
 
+<div class="legendTooltip" style=""></div>
+
+
 <div class=" tooltip" style="">
     <img alt="Flag"
          class="flag"
          height="65" style="float: right;" src="">
     <h2 class="title"></h2>
-    <div style="margin-top:10px;">Capial: <span class="capital"></span></div>
-    <div>Surface: <span class="surfaceArea"></span> km2</div>
+    <div class="generalInformationTitle">Country Information</div>
+    <div>Capial: <span class="capital"></span></div>
+    <div>Population: <span class="population"></span> Millions</div>
+    <div>Surface: <span class="surfaceArea"></span> km<sup>2</sup></div>
 </div>
 
 
