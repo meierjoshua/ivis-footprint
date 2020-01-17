@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" width="200px" height="200px" viewBox="0 0 200 200" xml:space="preserve">
-<circle fill-rule="evenodd" fill="#0D870B" cx="100" cy="100" r="100"/>
-<polygon fill-rule="evenodd" fill="#D3D3D3" points="91.93,74 121,74 71,31 21,74 50.07,74 21,99 50.07,99 21,124 59,124 59,150 
-	83,150 83,124 121,124 91.93,99 121,99 "/>
-<polygon fill-rule="evenodd" fill="#D3D3D3" points="159.464,114 174,114 148.999,92.499 123.998,114 138.533,114 123.998,127 
-	138.533,127 123.998,139 143,139 143,152 155,152 155,139 174,139 159.464,127 174,127 "/>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="200px" height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<circle fill="#008B8B" cx="100" cy="100" r="100"/>
+<polygon fill="#D3D3D3" points="91.93,74 121,74 71,31 21,74 50.07,74 21,99 50.07,99 21,124 59,124 59,150 83,150 83,124 121,124 
+	91.93,99 121,99 "/>
+<polygon fill="#D3D3D3" points="159.464,114 174,114 148.999,92.499 123.998,114 138.533,114 123.998,127 138.533,127 123.998,139 
+	143,139 143,152 155,152 155,139 174,139 159.464,127 174,127 "/>
 </svg>

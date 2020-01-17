@@ -6,8 +6,9 @@ h2 {
     display: inline;
     padding-right: 30px;
     border-bottom: 1px solid black;
-    margin-bottom: 10px;
-    padding-bottom: 6px;
+    padding-bottom: 2px;
+    font-size: 1.8em;
+    line-height: 30px;
 }
 
 html {
@@ -129,8 +130,8 @@ html {
     cursor: pointer;
 }
 
-.populationDevelopmentTitle, .balanceDevelopmentTitle, .generalInformationTitle {
-    margin-top: 15px;
+.generalInformationTitle, .worldsNeededTitle , .populationDevelopmentTitle, .balanceDevelopmentTitle {
+    margin-top: 8px;
     font-weight: 700;
 }
 
