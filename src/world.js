@@ -290,17 +290,17 @@ function updateColorLegend() {
     switch (colorMode) {
         case "balanceBtn":
             colorScale = colorScaleBalance;
-            legendTooltip = "<div><b>ECOLOGICAL DEFICIT/RESERVE</b></div><div>An ecological deficit occurs when the Ecological Footprint of a population exceeds the biocapacityof the area available to that population. A national ecological deficit means that the nation is importing biocapacity through trade, liquidating national ecological assets or emitting carbon dioxide waste into the atmosphere. An ecological reserve exists when the biocapacity of a region exceeds its population's Ecological Footprint.</div><ul style=\"padding-left:15px;\"><li>Red: How many <b>times</b> footprint is greater than biocapacity</li><li>Blue: How many <b>times</b> biocapacity is greater than footprint</li></ul>";
+            legendTooltip = "<div><b>ECOLOGICAL DEFICIT/RESERVE</b></div><div>An ecological deficit means the footprint of a country is higher than its biocapacity available for the population. A footprint includes trade, liquidating national ecological assets or emitting CO2 into the atmosphere. An ecological reserve means that the biocapacity is higher than the footprint.</div><ul style=\"padding-left:15px;\"><li>Red: How many <b>times</b> footprint is greater than biocapacity</li><li>Blue: How many <b>times</b> biocapacity is greater than footprint</li></ul>";
             range = 18.75;
             break;
         case "footprintPerPersonBtn":
             colorScale = colorScaleFootprintPerPerson;
-            legendTooltip = "<div><b>ECOLOGICAL FOOTPRINT PER PERSON</b></div><div>The Ecological Footprint per person is a nation's total Ecological Footprint divided by the total population of the nation. To live within the means of our planet's resources, the world's Ecological Footprint would have to equal the available biocapacity per person on our planet, which is currently 1.7 global hectares.</div>";
+            legendTooltip = "<div><b>ECOLOGICAL FOOTPRINT PER PERSON</b></div><div>The ecological footprint is calculated by dividing the footprint of a nation by its total population. To not exceeding the planet’s available resources, a country needs to be equal to the available biocapacity on our planet, which is 1.7 global hectares (gha).</div>";
             range = 262;
             break;
         case "bioCapacityPerPersonBtn":
             colorScale = colorScaleBioCapacityPerPerson;
-            legendTooltip = "<div><b>BIOCAPACITY PER PERSON</b></div><div>Biocapacity per person equals total biocapacity of a region divided by the region's population. The average biocapacity per person for the entire world is 1.7 global hectares. Countries with an average biocapacity of 3.4 global hectares per person have twice as many resources as the world average.</div>";
+            legendTooltip = "<div><b>BIOCAPACITY PER PERSON</b></div><div>Biocapacity per person is defined as the total biocapacity of a country divided by its population. The average biocapacity per person for the entire world is 1.7 global hectares (gha). That means that countries with a biocapacity of 3.4 gha (per person) provide double as many resources as the world’s average.</div>";
             range = 262;
             break;
     }
